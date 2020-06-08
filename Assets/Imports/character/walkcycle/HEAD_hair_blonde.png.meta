@@ -1,0 +1,1271 @@
+fileFormatVersion: 2
+guid: ef9e87bf24b86a64381dfc5cdc86d332
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7415893660062548086
+    second: HEAD_hair_blonde_0
+  - first:
+      213: -3014633940738268977
+    second: HEAD_hair_blonde_1
+  - first:
+      213: 402504390291882348
+    second: HEAD_hair_blonde_2
+  - first:
+      213: 647450099704228048
+    second: HEAD_hair_blonde_3
+  - first:
+      213: -7327726315870943282
+    second: HEAD_hair_blonde_4
+  - first:
+      213: -5547286814672647404
+    second: HEAD_hair_blonde_5
+  - first:
+      213: 7984738779612485029
+    second: HEAD_hair_blonde_6
+  - first:
+      213: -3082159626229340409
+    second: HEAD_hair_blonde_7
+  - first:
+      213: -1550508427201934116
+    second: HEAD_hair_blonde_8
+  - first:
+      213: -665459091677986518
+    second: HEAD_hair_blonde_9
+  - first:
+      213: 3193049944384139094
+    second: HEAD_hair_blonde_10
+  - first:
+      213: -4100609587866911622
+    second: HEAD_hair_blonde_11
+  - first:
+      213: 8123902150443714789
+    second: HEAD_hair_blonde_12
+  - first:
+      213: 6334149140398975158
+    second: HEAD_hair_blonde_13
+  - first:
+      213: 8361675175069767018
+    second: HEAD_hair_blonde_14
+  - first:
+      213: -7806306045081099590
+    second: HEAD_hair_blonde_15
+  - first:
+      213: -1368820821508112909
+    second: HEAD_hair_blonde_16
+  - first:
+      213: -4403874691235130045
+    second: HEAD_hair_blonde_17
+  - first:
+      213: -5884775292770510856
+    second: HEAD_hair_blonde_18
+  - first:
+      213: 6141481715309272150
+    second: HEAD_hair_blonde_19
+  - first:
+      213: 197731287477822723
+    second: HEAD_hair_blonde_20
+  - first:
+      213: 2934257136344158055
+    second: HEAD_hair_blonde_21
+  - first:
+      213: 5172438191476907585
+    second: HEAD_hair_blonde_22
+  - first:
+      213: -5321949214494139299
+    second: HEAD_hair_blonde_23
+  - first:
+      213: -9022893176752864185
+    second: HEAD_hair_blonde_24
+  - first:
+      213: -1907635301471498630
+    second: HEAD_hair_blonde_25
+  - first:
+      213: 6375615023888726834
+    second: HEAD_hair_blonde_26
+  - first:
+      213: 501416479655919582
+    second: HEAD_hair_blonde_27
+  - first:
+      213: 8008287815198460997
+    second: HEAD_hair_blonde_28
+  - first:
+      213: -7817281855720259077
+    second: HEAD_hair_blonde_29
+  - first:
+      213: 7582552499387652837
+    second: HEAD_hair_blonde_30
+  - first:
+      213: 2081838825271887411
+    second: HEAD_hair_blonde_31
+  - first:
+      213: 1718923929929991679
+    second: HEAD_hair_blonde_32
+  - first:
+      213: -5641459429642411958
+    second: HEAD_hair_blonde_33
+  - first:
+      213: 6286569719207717245
+    second: HEAD_hair_blonde_34
+  - first:
+      213: -847687180571755564
+    second: HEAD_hair_blonde_35
+  - first:
+      213: 4905416247999242684
+    second: HEAD_hair_blonde_36
+  - first:
+      213: 3331449016366485914
+    second: HEAD_hair_blonde_37
+  - first:
+      213: -2665445587091299464
+    second: HEAD_hair_blonde_38
+  - first:
+      213: -5655073972838065095
+    second: HEAD_hair_blonde_39
+  - first:
+      213: -1726492634990947438
+    second: HEAD_hair_blonde_40
+  - first:
+      213: 5544906472502027148
+    second: HEAD_hair_blonde_41
+  - first:
+      213: -2678289085112077990
+    second: HEAD_hair_blonde_42
+  - first:
+      213: -4355710066145275587
+    second: HEAD_hair_blonde_43
+  - first:
+      213: 2308853459338709508
+    second: HEAD_hair_blonde_44
+  - first:
+      213: -5754883143417133770
+    second: HEAD_hair_blonde_45
+  - first:
+      213: -470072745825228572
+    second: HEAD_hair_blonde_46
+  - first:
+      213: -6008273318974753050
+    second: HEAD_hair_blonde_47
+  - first:
+      213: -6333156894770573726
+    second: HEAD_hair_blonde_48
+  - first:
+      213: -3401830293134683343
+    second: HEAD_hair_blonde_49
+  - first:
+      213: 5722897083964643781
+    second: HEAD_hair_blonde_50
+  - first:
+      213: -7947317070317632870
+    second: HEAD_hair_blonde_51
+  - first:
+      213: 74576710528217432
+    second: HEAD_hair_blonde_52
+  - first:
+      213: -8495930090252813840
+    second: HEAD_hair_blonde_53
+  - first:
+      213: 8558092016953642526
+    second: HEAD_hair_blonde_54
+  - first:
+      213: 8439886935185098442
+    second: HEAD_hair_blonde_55
+  - first:
+      213: -6640140192715615729
+    second: HEAD_hair_blonde_56
+  - first:
+      213: -6068041089622608441
+    second: HEAD_hair_blonde_57
+  - first:
+      213: 804492454239178612
+    second: HEAD_hair_blonde_58
+  - first:
+      213: -1224772786461465556
+    second: HEAD_hair_blonde_59
+  - first:
+      213: 915170796036087117
+    second: HEAD_hair_blonde_60
+  - first:
+      213: 9078235050774912405
+    second: HEAD_hair_blonde_61
+  - first:
+      213: 3074318733408027949
+    second: HEAD_hair_blonde_62
+  - first:
+      213: 627460148368912893
+    second: HEAD_hair_blonde_63
+  - first:
+      213: 5940468944235518127
+    second: HEAD_hair_blonde_64
+  - first:
+      213: 2970205690090103991
+    second: HEAD_hair_blonde_65
+  - first:
+      213: 8497793603884117454
+    second: HEAD_hair_blonde_66
+  - first:
+      213: -7777372062801385056
+    second: HEAD_hair_blonde_67
+  - first:
+      213: 1710502039481593015
+    second: HEAD_hair_blonde_68
+  - first:
+      213: 4934611585606929351
+    second: HEAD_hair_blonde_69
+  - first:
+      213: 7607487744684702979
+    second: HEAD_hair_blonde_70
+  - first:
+      213: 6302121623148950175
+    second: HEAD_hair_blonde_71
+  - first:
+      213: 609508706149500848
+    second: HEAD_hair_blonde_72
+  - first:
+      213: -4376573879350688975
+    second: HEAD_hair_blonde_73
+  - first:
+      213: 1740305781698495198
+    second: HEAD_hair_blonde_74
+  - first:
+      213: 8296711289469840116
+    second: HEAD_hair_blonde_75
+  - first:
+      213: -6961239809808676749
+    second: HEAD_hair_blonde_76
+  - first:
+      213: 1158478897871487794
+    second: HEAD_hair_blonde_77
+  - first:
+      213: 933901028829447126
+    second: HEAD_hair_blonde_78
+  - first:
+      213: -6585869538644430443
+    second: HEAD_hair_blonde_79
+  - first:
+      213: -7060702642471736135
+    second: HEAD_hair_blonde_80
+  - first:
+      213: -5079317231677060087
+    second: HEAD_hair_blonde_81
+  - first:
+      213: 8595988333408475299
+    second: HEAD_hair_blonde_82
+  - first:
+      213: -7141539519880142115
+    second: HEAD_hair_blonde_83
+  - first:
+      213: 7892069961230736521
+    second: HEAD_hair_blonde_84
+  - first:
+      213: -1800103280138028057
+    second: HEAD_hair_blonde_85
+  - first:
+      213: -7483761853913547869
+    second: HEAD_hair_blonde_86
+  - first:
+      213: -2542738446047484529
+    second: HEAD_hair_blonde_87
+  - first:
+      213: -4031496690008259627
+    second: HEAD_hair_blonde_88
+  - first:
+      213: 4944530621015575165
+    second: HEAD_hair_blonde_89
+  - first:
+      213: 5383240215665585879
+    second: HEAD_hair_blonde_90
+  - first:
+      213: -6026711538714259614
+    second: HEAD_hair_blonde_91
+  - first:
+      213: -6428892990109916128
+    second: HEAD_hair_blonde_92
+  - first:
+      213: 3209969522278254307
+    second: HEAD_hair_blonde_93
+  - first:
+      213: -7660544099417316435
+    second: HEAD_hair_blonde_94
+  - first:
+      213: -3303061731351514063
+    second: HEAD_hair_blonde_95
+  - first:
+      213: -8306765216057848627
+    second: HEAD_hair_blonde_96
+  - first:
+      213: -866343043838028318
+    second: HEAD_hair_blonde_97
+  - first:
+      213: 2514676234816083762
+    second: HEAD_hair_blonde_98
+  - first:
+      213: 1775142681914261847
+    second: HEAD_hair_blonde_99
+  - first:
+      213: -4307224973300905159
+    second: HEAD_hair_blonde_100
+  - first:
+      213: -897132997798073433
+    second: HEAD_hair_blonde_101
+  - first:
+      213: -6436373561732615744
+    second: HEAD_hair_blonde_102
+  - first:
+      213: 1015564031848177502
+    second: HEAD_hair_blonde_103
+  - first:
+      213: 2052846521413919898
+    second: HEAD_hair_blonde_104
+  - first:
+      213: 7785386863973783735
+    second: HEAD_hair_blonde_105
+  - first:
+      213: -5024775565881974616
+    second: HEAD_hair_blonde_106
+  - first:
+      213: 2830569592993460730
+    second: HEAD_hair_blonde_107
+  - first:
+      213: 8091966041410583430
+    second: HEAD_hair_blonde_108
+  - first:
+      213: -3335595222918039111
+    second: HEAD_hair_blonde_109
+  - first:
+      213: -7341443746318780929
+    second: HEAD_hair_blonde_110
+  - first:
+      213: 3004617192362129132
+    second: HEAD_hair_blonde_111
+  - first:
+      213: 6822479619149369842
+    second: HEAD_hair_blonde_112
+  - first:
+      213: -7012925131387918600
+    second: HEAD_hair_blonde_113
+  - first:
+      213: 1004141417981737492
+    second: HEAD_hair_blonde_114
+  - first:
+      213: -492857791585125847
+    second: HEAD_hair_blonde_115
+  - first:
+      213: 6400112578578336548
+    second: HEAD_hair_blonde_116
+  - first:
+      213: 3169671354725716983
+    second: HEAD_hair_blonde_117
+  - first:
+      213: 1111037969621660448
+    second: HEAD_hair_blonde_118
+  - first:
+      213: 7506834423786390620
+    second: HEAD_hair_blonde_119
+  - first:
+      213: 8630216490139836014
+    second: HEAD_hair_blonde_120
+  - first:
+      213: 8959859100864765234
+    second: HEAD_hair_blonde_121
+  - first:
+      213: -5028605752618518257
+    second: HEAD_hair_blonde_122
+  - first:
+      213: 4484919021870492965
+    second: HEAD_hair_blonde_123
+  - first:
+      213: -1893168252492660879
+    second: HEAD_hair_blonde_124
+  - first:
+      213: 3385278509428003022
+    second: HEAD_hair_blonde_125
+  - first:
+      213: 6134196095773027598
+    second: HEAD_hair_blonde_126
+  - first:
+      213: -7706155978580971238
+    second: HEAD_hair_blonde_127
+  - first:
+      213: 4490315975448774539
+    second: HEAD_hair_blonde_128
+  - first:
+      213: -2430916458624991548
+    second: HEAD_hair_blonde_129
+  - first:
+      213: -2432896816627851843
+    second: HEAD_hair_blonde_130
+  - first:
+      213: 119836536266826077
+    second: HEAD_hair_blonde_131
+  - first:
+      213: -5750054355707131240
+    second: HEAD_hair_blonde_132
+  - first:
+      213: -3055898816816853926
+    second: HEAD_hair_blonde_133
+  - first:
+      213: -7354668546467439566
+    second: HEAD_hair_blonde_134
+  - first:
+      213: 7107139024327800882
+    second: HEAD_hair_blonde_135
+  - first:
+      213: -4950303297476192715
+    second: HEAD_hair_blonde_136
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f76ebd104751990800000000000000
+      internalID: -7415893660062548086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0a572376ed926d0800000000000000
+      internalID: -3014633940738268977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6102e34c9bf59500800000000000000
+      internalID: 402504390291882348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d869a27f643cf800800000000000000
+      internalID: 647450099704228048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec70b3b5dbfae4a90800000000000000
+      internalID: -7327726315870943282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b8a3868041403b0800000000000000
+      internalID: -5547286814672647404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a596177d9d7fce60800000000000000
+      internalID: 7984738779612485029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707ac816628f935d0800000000000000
+      internalID: -3082159626229340409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc0167eccc7b7ae0800000000000000
+      internalID: -1550508427201934116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21cafb5b70d3c6f0800000000000000
+      internalID: -665459091677986518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fe815c10eff4c20800000000000000
+      internalID: 3193049944384139094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cb1a84e45b717c0800000000000000
+      internalID: -4100609587866911622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8ca3ba6f5edb070800000000000000
+      internalID: 8123902150443714789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8a3db551b67e750800000000000000
+      internalID: 6334149140398975158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a655c390543aa0470800000000000000
+      internalID: 8361675175069767018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2e4f6f20e6aa390800000000000000
+      internalID: -7806306045081099590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_16
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdb9d417b8f00de0800000000000000
+      internalID: -1368820821508112909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345d8911d4b42e2c0800000000000000
+      internalID: -4403874691235130045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f71b63dc04155ea0800000000000000
+      internalID: -5884775292770510856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cd093c41dea3550800000000000000
+      internalID: 6141481715309272150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305a81fee8b7eb200800000000000000
+      internalID: 197731287477822723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fc273b15398b820800000000000000
+      internalID: 2934257136344158055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e15a1612138c740800000000000000
+      internalID: 5172438191476907585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c5865e263a426b0800000000000000
+      internalID: -5321949214494139299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7448959067e38c280800000000000000
+      internalID: -9022893176752864185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_25
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ecbc6ecc7b685e0800000000000000
+      internalID: -1907635301471498630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bf783b51cba7850800000000000000
+      internalID: 6375615023888726834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edffa62b1a365f600800000000000000
+      internalID: 501416479655919582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c4ef39657232f60800000000000000
+      internalID: 8008287815198460997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf100b8e19f638390800000000000000
+      internalID: -7817281855720259077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea50c8f253aa3960800000000000000
+      internalID: 7582552499387652837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_31
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33682fba16d24ec10800000000000000
+      internalID: 2081838825271887411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_32
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5456ff438dad710800000000000000
+      internalID: 1718923929929991679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40e269d98285b1b0800000000000000
+      internalID: -5641459429642411958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_34
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d796a191ad16e3750800000000000000
+      internalID: 6286569719207717245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD_hair_blonde_35
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db3e5120096c34f0800000000000000
+      internalID: -847687180571755564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
