@@ -7,15 +7,19 @@ using UnityEditor;
 
 public class MapGenerator : MonoBehaviour
 {
-    public bool GizmosMap = false;
+    public string title = "default";
+    public enum PrintMapScene { CellularAutomatonTileGizmos, CellularAutomatonTile, Noise, None }
+    public PrintMapScene printMapScene = PrintMapScene.None;
 
-    public int width = 10;
-    public int height = 10;
-
+    [Min(1)]
+    public int width = 1;
+    [Min(1)]
+    public int height = 1;
     public string seed;
     public bool useRandomSeed;
-    public int SmoothRepetition = 4;
 
+    //------------------- CellularAutomaton ---------------------
+    public int cellularAutomatonRepetition = 4;
     [Range(0,100)]
     public int randomFillPercent;
     [Range(0, 1000)]
@@ -27,31 +31,69 @@ public class MapGenerator : MonoBehaviour
     public Tilemap topMap;
     public AnimatedTile botTile;
     public RuleTile topTile;
-
+    //------------------------------------------------------------
     int[,] map;
 
-    int xpos;
-    int ypos;
+    //-------------------------- Noise ---------------------------
+    public float noiseScale;
+    [Min(0)]
+    public int octaves;
+    [Range(0, 1)]
+    public float persistance;
+    [Min(1)]
+    public float lacunarity = 1;
+    public Vector2 offset;
+    //------------------------------------------------------------
+    float[,] noiseMap;
 
-    void Start()
+    System.Random rng;
+
+    public void GenerateMap()
     {
-        xpos = (int)transform.position.x;
-        ypos = (int)transform.position.y;
-        GenerateMap();
-        SaveMap();
+        if (useRandomSeed)
+            seed = Time.time.ToString();
+        rng = new System.Random(seed.GetHashCode());
+
+        if (printMapScene == PrintMapScene.CellularAutomatonTile)
+        {
+            GenerateCellularAutomaton();
+            PrintCellularAutomatonMapTile();
+        }
+        else if (printMapScene == PrintMapScene.CellularAutomatonTileGizmos)
+            GenerateCellularAutomaton();
+        else if (printMapScene == PrintMapScene.Noise)
+            GenerateNoise();
     }
 
-    void Update()
+    void GenerateCellularAutomaton()
     {
-        PrintMap();
+        map = new int[width, height];
+
+        RandomFillMap();
+        for (int i = 0; i < cellularAutomatonRepetition; i++)
+            CellularAutomaton();
+        ProcessMapRegion();
     }
 
-    void SaveMap()
+    void GenerateNoise()
+    {
+        noiseMap = Noise.GenerateNoiseMap(width, height, rng, noiseScale, octaves, persistance, lacunarity, offset);
+    }
+
+  
+
+    public void ClearMap()
+    {
+        botMap.ClearAllTiles();
+        topMap.ClearAllTiles();
+    }
+
+    public void SaveMap()
     {
         var mf = GameObject.Find("Grid");//change fird
-        var savePath = "Assets/Maps/" + seed + ".prefab";
+        var savePath = "Assets/Maps/" + title + ".prefab";
 
-        if (PrefabUtility.SaveAsPrefabAsset(mf, savePath))
+        if (PrefabUtility.SaveAsPrefabAsset(mf, savePath)) 
         {
             EditorUtility.DisplayDialog("Tile map saved: ", "Path: " + savePath, "OK");
         }
@@ -61,8 +103,15 @@ public class MapGenerator : MonoBehaviour
         }
     }
 
-    void PrintMap()
+
+
+    void PrintCellularAutomatonMapTile()
     {
+        int xpos = (int)transform.position.x;
+        int ypos = (int)transform.position.y;
+
+        ClearMap();
+
         for (int x = 0; x < width; x++)
         {
             for (int y = 0; y < height; y++)
@@ -77,17 +126,6 @@ public class MapGenerator : MonoBehaviour
                     botMap.SetTile(new Vector3Int(xpos - width / 2 + x, ypos - height / 2 + y, 0), botTile);
             }
         }
-    }
-
-    void GenerateMap()
-    {
-        map = new int[width, height];
-        RandomFillMap();
-
-        for (int i = 0; i < SmoothRepetition; i++)//change 4 to public variable
-            SmoothMap();
-
-        ProcessMapRegion();
     }
 
     void ProcessMapRegion()
@@ -170,23 +208,19 @@ public class MapGenerator : MonoBehaviour
 
     void RandomFillMap()
     {
-        if (useRandomSeed)
-            seed = Time.time.ToString();
-        System.Random rng = new System.Random(seed.GetHashCode());
-
         for (int x = 0; x < width; x++)
         {
             for (int y = 0; y < height; y++)
             {
-                if (x == 0 || x == width - 1 || y == 0 || y == height - 1)
+                /*if (x == 0 || x == width - 1 || y == 0 || y == height - 1)
                     map[x, y] = 1;
-                else
+                else*/
                     map[x, y] = (rng.Next(0, 100) < randomFillPercent) ? 1 : 0;
             }
         }
     }
 
-    void SmoothMap()
+    void CellularAutomaton()
     {
         for (int x = 0; x < width; x++)
         {
@@ -228,17 +262,33 @@ public class MapGenerator : MonoBehaviour
         return (x >= 0 && x < width && y >= 0 && y < height);
     }
 
-    void OnDrawGizmos()
+    void OnDrawGizmosSelected()
     {
-        if (GizmosMap)
+        if (printMapScene == PrintMapScene.CellularAutomatonTileGizmos && map != null)
         {
-            if (map == null)
-                GenerateMap();
+            int xpos = (int)transform.position.x;
+            int ypos = (int)transform.position.y;
+
             for (int x = 0; x < width; x++)
             {
                 for (int y = 0; y < height; y++)
                 {
                     Gizmos.color = (map[x, y] == 1) ? Color.black : Color.white;
+                    Vector3 pos = new Vector3(xpos - width / 2 + x, ypos - height / 2 + y, 0);
+                    Gizmos.DrawCube(pos, Vector3.one);
+                }
+            }
+        }
+        else if (printMapScene == PrintMapScene.Noise && map != null)
+        {
+            int xpos = (int)transform.position.x;
+            int ypos = (int)transform.position.y;
+
+            for (int x = 0; x < width; x++)
+            {
+                for (int y = 0; y < height; y++)
+                {
+                    Gizmos.color = Color.Lerp(Color.black, Color.white, noiseMap[x, y]);
                     Vector3 pos = new Vector3(xpos - width / 2 + x, ypos - height / 2 + y, 0);
                     Gizmos.DrawCube(pos, Vector3.one);
                 }
